@@ -1,9 +1,9 @@
 using System;
 namespace Assignment1Part1Question3
 {
-  class Assignment1Part1Question3
+  class LeapYearChecker
   {
-    public static void Main(string[] args)
+    public static void CheckLeapYear()
     {
       Console.WriteLine("Enter year:");
       int year = Convert.ToInt32(Console.ReadLine());

@@ -1,9 +1,9 @@
 using System;
 namespace Assignment1Part1Question4
 {
-  class Assignment1Part1Question4
+  class QuadraticRootsFinder
   {
-    public static void Main(string[] args)
+    public static void FindRoots()
     {
       int a=Convert.ToInt32(Console.ReadLine());
       int b = Convert.ToInt32(Console.ReadLine());

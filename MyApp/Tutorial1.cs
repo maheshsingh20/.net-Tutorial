@@ -1,9 +1,9 @@
 using System;
 namespace MyTutorial1
 {
-  class MyTutorial1
+  class ArrayProcessor
   {
-    public static void Main(string[] args)
+    public static void ProcessArray()
     {
       Console.WriteLine("Size of Array: ");
       int size = Convert.ToInt32(Console.ReadLine());

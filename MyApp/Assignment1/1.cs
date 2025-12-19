@@ -2,9 +2,9 @@ using System;
 
 namespace Assignment1Part1Question1
 {
-  class Assignment1Part1Question1
+  class HeightCategorizer
   {
-    public static void Main(string[] args)
+    public static void CategorizeHeight()
     {
       int height = Convert.ToInt32(Console.ReadLine());
 

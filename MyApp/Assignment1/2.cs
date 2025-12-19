@@ -1,9 +1,9 @@
 using System;
 namespace Assignment1Part1Question2
 {
-  class Assignment1Part1Question2
+  class LargestNumberFinder
   {
-    public static void Main(string[] args)
+    public static void FindLargestNumber()
     {
       int a = 10;
       int b = 20;

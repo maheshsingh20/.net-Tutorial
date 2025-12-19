@@ -1,9 +1,9 @@
 using System;
 namespace Assignment1Part1Question5
 {
-  class Assignment1Part1Question5
+  class AdmissionEligibilityChecker
   {
-    public static void Main(string[] args)
+    public static void CheckEligibility()
     {
       int maths=Convert.ToInt32(Console.ReadLine());
       int physics = Convert.ToInt32(Console.ReadLine());

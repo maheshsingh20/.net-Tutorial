@@ -1,9 +1,9 @@
 using System;
 namespace Assignment1Part1Question6
 {
-  class Assignment1Part1Question6
+  class ElectricityBillCalculator
   {
-    public static void Main(String[] args)
+    public static void CalculateBill()
     {
       int unitsConsumed = Convert.ToInt32(Console.ReadLine());
       if(unitsConsumed<=199)
