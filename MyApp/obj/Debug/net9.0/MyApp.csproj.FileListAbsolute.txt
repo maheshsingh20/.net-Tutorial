@@ -12,3 +12,4 @@ F:\DotNetP\MyApp\obj\Debug\net9.0\refint\MyApp.dll
 F:\DotNetP\MyApp\obj\Debug\net9.0\MyApp.pdb
 F:\DotNetP\MyApp\obj\Debug\net9.0\MyApp.genruntimeconfig.cache
 F:\DotNetP\MyApp\obj\Debug\net9.0\ref\MyApp.dll
+F:\DotNetP\Myapp\obj\Debug\net9.0\MyApp.sourcelink.json
