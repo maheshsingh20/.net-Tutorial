@@ -1,4 +1,5 @@
-﻿using Assignment1Part1Question1; // For Question 1 Height Category Assignment1/1.cs
+﻿/*
+using Assignment1Part1Question1; // For Question 1 Height Category Assignment1/1.cs
 using Assignment1Part1Question2; // For Question 2 Largest Number Assignment1/2.cs
 using Assignment1Part1Question3; // For Question 3 check Leap Year Assignment1/3.cs
 using Assignment1Part1Question4; // For Question 4 Roots of Quadratic Equation Assignment1/4.cs
@@ -65,4 +66,18 @@ class Program
         // Question 15: Simple Calculator (+, -, *, /)
         SimpleCalculator.Calculate();
     }
+}
+*/
+
+using System;
+using Day3demo1;
+
+class Program
+{
+  public static void Main(string[] args)
+  {
+    // Employee emp2 = new Employee("Alice", 30, "HR", 60000);
+    // emp2.DisplayInfo();
+    Employee emp1 = new Employee();
+  }
 }
