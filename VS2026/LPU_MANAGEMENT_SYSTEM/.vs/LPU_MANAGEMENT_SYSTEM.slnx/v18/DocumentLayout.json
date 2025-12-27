@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3118D25F-D054-4105-97D3-660B048B27DD}|LPU_EXCEPTION\\LPU_EXCEPTION.csproj|e:\\vs2026\\lpu_management_system\\lpu_exception\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3118D25F-D054-4105-97D3-660B048B27DD}|LPU_EXCEPTION\\LPU_EXCEPTION.csproj|solutionrelative:lpu_exception\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A31258-A575-4435-82DB-93238E494D5C}|LPU_ENTITY\\LPU_ENTITY.csproj|e:\\vs2026\\lpu_management_system\\lpu_entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2A31258-A575-4435-82DB-93238E494D5C}|LPU_ENTITY\\LPU_ENTITY.csproj|solutionrelative:lpu_entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A4CF37-28DD-4B0F-9072-E4A5682ABE46}|LPU_UI\\LPU_UI.csproj|e:\\vs2026\\lpu_management_system\\lpu_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3A4CF37-28DD-4B0F-9072-E4A5682ABE46}|LPU_UI\\LPU_UI.csproj|solutionrelative:lpu_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871DDA86-B074-4EDF-9549-6ED7BC43B4FA}|LPU_DAL\\LPU_DAL.csproj|e:\\vs2026\\lpu_management_system\\lpu_dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871DDA86-B074-4EDF-9549-6ED7BC43B4FA}|LPU_DAL\\LPU_DAL.csproj|solutionrelative:lpu_dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A361F4-A8F3-439C-BE7E-73FA17531E80}|LPU_BL\\LPU_BL.csproj|e:\\vs2026\\lpu_management_system\\lpu_bl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A361F4-A8F3-439C-BE7E-73FA17531E80}|LPU_BL\\LPU_BL.csproj|solutionrelative:lpu_bl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_EXCEPTION\\Class1.cs",
+              "RelativeDocumentMoniker": "LPU_EXCEPTION\\Class1.cs",
+              "ToolTip": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_EXCEPTION\\Class1.cs*",
+              "RelativeToolTip": "LPU_EXCEPTION\\Class1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T05:06:02.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_ENTITY\\Class1.cs",
+              "RelativeDocumentMoniker": "LPU_ENTITY\\Class1.cs",
+              "ToolTip": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_ENTITY\\Class1.cs",
+              "RelativeToolTip": "LPU_ENTITY\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T05:05:41.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "LPU_DAL\\Class1.cs",
+              "ToolTip": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_DAL\\Class1.cs",
+              "RelativeToolTip": "LPU_DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T05:05:15.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_UI\\Program.cs",
+              "RelativeDocumentMoniker": "LPU_UI\\Program.cs",
+              "ToolTip": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_UI\\Program.cs",
+              "RelativeToolTip": "LPU_UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T05:04:45.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_BL\\Class1.cs",
+              "RelativeDocumentMoniker": "LPU_BL\\Class1.cs",
+              "ToolTip": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_BL\\Class1.cs",
+              "RelativeToolTip": "LPU_BL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T05:04:13.779Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

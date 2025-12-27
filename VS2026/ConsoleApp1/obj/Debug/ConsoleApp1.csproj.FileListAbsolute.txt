@@ -1,0 +1,7 @@
+E:\VS2026\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\VS2026\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\VS2026\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\VS2026\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+E:\VS2026\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\VS2026\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\VS2026\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

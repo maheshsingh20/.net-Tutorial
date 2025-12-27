@@ -1,0 +1,14 @@
+E:\VS2026\Day7Demo\bin\Debug\net10.0\Day7Demo.exe
+E:\VS2026\Day7Demo\bin\Debug\net10.0\Day7Demo.deps.json
+E:\VS2026\Day7Demo\bin\Debug\net10.0\Day7Demo.runtimeconfig.json
+E:\VS2026\Day7Demo\bin\Debug\net10.0\Day7Demo.dll
+E:\VS2026\Day7Demo\bin\Debug\net10.0\Day7Demo.pdb
+E:\VS2026\Day7Demo\obj\Debug\net10.0\Day7Demo.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS2026\Day7Demo\obj\Debug\net10.0\Day7Demo.AssemblyInfoInputs.cache
+E:\VS2026\Day7Demo\obj\Debug\net10.0\Day7Demo.AssemblyInfo.cs
+E:\VS2026\Day7Demo\obj\Debug\net10.0\Day7Demo.csproj.CoreCompileInputs.cache
+E:\VS2026\Day7Demo\obj\Debug\net10.0\Day7Demo.dll
+E:\VS2026\Day7Demo\obj\Debug\net10.0\refint\Day7Demo.dll
+E:\VS2026\Day7Demo\obj\Debug\net10.0\Day7Demo.pdb
+E:\VS2026\Day7Demo\obj\Debug\net10.0\Day7Demo.genruntimeconfig.cache
+E:\VS2026\Day7Demo\obj\Debug\net10.0\ref\Day7Demo.dll
