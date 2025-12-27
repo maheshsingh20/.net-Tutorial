@@ -1,126 +1,167 @@
 using System;
 
-namespace MediSureClinic
+namespace QuickMartTraders
 {
-    public class PatientBill
+    public class SaleTransaction
     {
-        // Patient and billing information
-        public string BillId { get; set; }
-        public string PatientName { get; set; }
-        public bool HasInsurance { get; set; }
-        public decimal ConsultationFee { get; set; }
-        public decimal LabCharges { get; set; }
-        public decimal MedicineCharges { get; set; }
-        
-        // Calculated amounts
-        public decimal GrossAmount { get; set; }
-        public decimal DiscountAmount { get; set; }
-        public decimal FinalPayable { get; set; }
+        public string InvoiceNo { get; set; }
+        public string CustomerName { get; set; }
+        public string ItemName { get; set; }
+        public int Quantity { get; set; }
+        public decimal PurchaseAmount { get; set; }
+        public decimal SellingAmount { get; set; }
+        public string ProfitOrLossStatus { get; set; }
+        public decimal ProfitOrLossAmount { get; set; }
+        public decimal ProfitMarginPercent { get; set; }
 
-        // Store the most recent bill in memory
-        public static PatientBill LastBill;
-        public static bool HasLastBill = false;
+        public static SaleTransaction LastTransaction;
+        public static bool HasLastTransaction = false;
 
-        public static void CreateNewBill()
+        public static void CreateNewTransaction()
         {
-            Console.Write("Enter Bill Id: ");
-            string billId = Console.ReadLine();
+            Console.WriteLine("Enter Invoice No:");
+            string invoiceNo = Console.ReadLine();
             
-            if (string.IsNullOrEmpty(billId))
+            if (string.IsNullOrWhiteSpace(invoiceNo))
             {
-                Console.WriteLine("Error: Bill ID is required!");
+                Console.WriteLine("Invoice No cannot be empty. Please try again.");
                 return;
             }
 
-            Console.Write("Enter Patient Name: ");
-            string patientName = Console.ReadLine();
+            Console.WriteLine("Enter Customer Name:");
+            string customerName = Console.ReadLine();
 
-            Console.Write("Is the patient insured? (Y/N): ");
-            string insuranceResponse = Console.ReadLine();
-            bool hasInsurance = (insuranceResponse == "Y" || insuranceResponse == "y");
+            Console.WriteLine("Enter Item Name:");
+            string itemName = Console.ReadLine();
 
-            // Get consultation fee
-            Console.Write("Enter Consultation Fee: ");
-            string consultationInput = Console.ReadLine();
-            if (!decimal.TryParse(consultationInput, out decimal consultationFee) || consultationFee <= 0)
+            Console.WriteLine("Enter Quantity:");
+            if (!int.TryParse(Console.ReadLine(), out int quantity) || quantity <= 0)
             {
-                Console.WriteLine("Invalid consultation fee! Must be greater than 0.");
+                Console.WriteLine("Quantity must be greater than 0. Please try again.");
                 return;
             }
 
-            // Get lab charges
-            Console.Write("Enter Lab Charges: ");
-            string labInput = Console.ReadLine();
-            if (!decimal.TryParse(labInput, out decimal labCharges) || labCharges < 0)
+            Console.WriteLine("Enter Purchase Amount (total):");
+            if (!decimal.TryParse(Console.ReadLine(), out decimal purchaseAmount) || purchaseAmount <= 0)
             {
-                Console.WriteLine("Invalid lab charges! Must be 0 or positive.");
+                Console.WriteLine("Purchase Amount must be greater than 0. Please try again.");
                 return;
             }
 
-            // Get medicine charges
-            Console.Write("Enter Medicine Charges: ");
-            string medicineInput = Console.ReadLine();
-            if (!decimal.TryParse(medicineInput, out decimal medicineCharges) || medicineCharges < 0)
+            Console.WriteLine("Enter Selling Amount (total):");
+            if (!decimal.TryParse(Console.ReadLine(), out decimal sellingAmount) || sellingAmount < 0)
             {
-                Console.WriteLine("Invalid medicine charges! Must be 0 or positive.");
+                Console.WriteLine("Selling Amount must be 0 or greater. Please try again.");
                 return;
             }
 
-            // Do the math for billing
-            decimal totalAmount = consultationFee + labCharges + medicineCharges;
-            decimal discount = 0;
-            if (hasInsurance)
+            // Calculate profit/loss values
+            string profitOrLossStatus;
+            decimal profitOrLossAmount;
+            decimal profitMarginPercent;
+
+            if (sellingAmount > purchaseAmount)
             {
-                discount = totalAmount * 0.10m; // 10% discount for insured patients
+                profitOrLossStatus = "PROFIT";
+                profitOrLossAmount = sellingAmount - purchaseAmount;
             }
-            decimal amountToPay = totalAmount - discount;
+            else if (sellingAmount < purchaseAmount)
+            {
+                profitOrLossStatus = "LOSS";
+                profitOrLossAmount = purchaseAmount - sellingAmount;
+            }
+            else
+            {
+                profitOrLossStatus = "BREAK-EVEN";
+                profitOrLossAmount = 0;
+            }
 
-            // Save this bill
-            LastBill = new PatientBill();
-            LastBill.BillId = billId;
-            LastBill.PatientName = patientName;
-            LastBill.HasInsurance = hasInsurance;
-            LastBill.ConsultationFee = consultationFee;
-            LastBill.LabCharges = labCharges;
-            LastBill.MedicineCharges = medicineCharges;
-            LastBill.GrossAmount = totalAmount;
-            LastBill.DiscountAmount = discount;
-            LastBill.FinalPayable = amountToPay;
+            profitMarginPercent = (profitOrLossAmount / purchaseAmount) * 100;
 
-            HasLastBill = true;
+            // Create and store the transaction
+            LastTransaction = new SaleTransaction
+            {
+                InvoiceNo = invoiceNo,
+                CustomerName = customerName,
+                ItemName = itemName,
+                Quantity = quantity,
+                PurchaseAmount = purchaseAmount,
+                SellingAmount = sellingAmount,
+                ProfitOrLossStatus = profitOrLossStatus,
+                ProfitOrLossAmount = profitOrLossAmount,
+                ProfitMarginPercent = profitMarginPercent
+            };
 
-            Console.WriteLine("Bill created successfully.");
-            Console.WriteLine("Gross Amount: " + totalAmount.ToString("F2"));
-            Console.WriteLine("Discount Amount: " + discount.ToString("F2"));
-            Console.WriteLine("Final Payable: " + amountToPay.ToString("F2"));
+            HasLastTransaction = true;
+
+            Console.WriteLine("Transaction saved successfully.");
+            Console.WriteLine($"Status: {profitOrLossStatus}");
+            Console.WriteLine($"Profit/Loss Amount: {profitOrLossAmount:F2}");
+            Console.WriteLine($"Profit Margin (%): {profitMarginPercent:F2}");
         }
 
-        public static void ViewLastBill()
+        public static void ViewLastTransaction()
         {
-            if (!HasLastBill || LastBill == null)
+            if (!HasLastTransaction)
             {
-                Console.WriteLine("No bill available. Please create a new bill first.");
+                Console.WriteLine("No transaction available. Please create a new transaction first.");
                 return;
             }
 
-            Console.WriteLine("----------- Last Bill -----------");
-            Console.WriteLine("BillId: " + LastBill.BillId);
-            Console.WriteLine("Patient: " + LastBill.PatientName);
-            Console.WriteLine("Insured: " + (LastBill.HasInsurance ? "Yes" : "No"));
-            Console.WriteLine("Consultation Fee: " + LastBill.ConsultationFee.ToString("F2"));
-            Console.WriteLine("Lab Charges: " + LastBill.LabCharges.ToString("F2"));
-            Console.WriteLine("Medicine Charges: " + LastBill.MedicineCharges.ToString("F2"));
-            Console.WriteLine("Gross Amount: " + LastBill.GrossAmount.ToString("F2"));
-            Console.WriteLine("Discount Amount: " + LastBill.DiscountAmount.ToString("F2"));
-            Console.WriteLine("Final Payable: " + LastBill.FinalPayable.ToString("F2"));
-            Console.WriteLine("--------------------------------");
+            Console.WriteLine("-------------- Last Transaction --------------");
+            Console.WriteLine($"InvoiceNo: {LastTransaction.InvoiceNo}");
+            Console.WriteLine($"Customer: {LastTransaction.CustomerName}");
+            Console.WriteLine($"Item: {LastTransaction.ItemName}");
+            Console.WriteLine($"Quantity: {LastTransaction.Quantity}");
+            Console.WriteLine($"Purchase Amount: {LastTransaction.PurchaseAmount:F2}");
+            Console.WriteLine($"Selling Amount: {LastTransaction.SellingAmount:F2}");
+            Console.WriteLine($"Status: {LastTransaction.ProfitOrLossStatus}");
+            Console.WriteLine($"Profit/Loss Amount: {LastTransaction.ProfitOrLossAmount:F2}");
+            Console.WriteLine($"Profit Margin (%): {LastTransaction.ProfitMarginPercent:F2}");
+            Console.WriteLine("--------------------------------------------");
         }
 
-        public static void ClearLastBill()
+        public static void CalculateProfitLoss()
         {
-            LastBill = null;
-            HasLastBill = false;
-            Console.WriteLine("Last bill cleared.");
+            if (!HasLastTransaction)
+            {
+                Console.WriteLine("No transaction available. Please create a new transaction first.");
+                return;
+            }
+
+            // Recompute profit/loss values
+            string profitOrLossStatus;
+            decimal profitOrLossAmount;
+            decimal profitMarginPercent;
+
+            if (LastTransaction.SellingAmount > LastTransaction.PurchaseAmount)
+            {
+                profitOrLossStatus = "PROFIT";
+                profitOrLossAmount = LastTransaction.SellingAmount - LastTransaction.PurchaseAmount;
+            }
+            else if (LastTransaction.SellingAmount < LastTransaction.PurchaseAmount)
+            {
+                profitOrLossStatus = "LOSS";
+                profitOrLossAmount = LastTransaction.PurchaseAmount - LastTransaction.SellingAmount;
+            }
+            else
+            {
+                profitOrLossStatus = "BREAK-EVEN";
+                profitOrLossAmount = 0;
+            }
+
+            profitMarginPercent = (profitOrLossAmount / LastTransaction.PurchaseAmount) * 100;
+
+            // Update the stored transaction
+            LastTransaction.ProfitOrLossStatus = profitOrLossStatus;
+            LastTransaction.ProfitOrLossAmount = profitOrLossAmount;
+            LastTransaction.ProfitMarginPercent = profitMarginPercent;
+
+            // Print the computed output
+            Console.WriteLine("Profit/Loss Calculation Results:");
+            Console.WriteLine($"Status: {profitOrLossStatus}");
+            Console.WriteLine($"Profit/Loss Amount: {profitOrLossAmount:F2}");
+            Console.WriteLine($"Profit Margin (%): {profitMarginPercent:F2}");
         }
     }
 
@@ -128,49 +169,45 @@ namespace MediSureClinic
     {
         static void Main(string[] args)
         {
-            bool keepRunning = true;
+            bool exitProgram = false;
 
-            while (keepRunning)
+            while (!exitProgram)
             {
-                ShowMenu();
-                string userChoice = Console.ReadLine();
+                // Display menu
+                Console.WriteLine("================== QuickMart Traders ==================");
+                Console.WriteLine("1. Create New Transaction (Enter Purchase & Selling Details)");
+                Console.WriteLine("2. View Last Transaction");
+                Console.WriteLine("3. Calculate Profit/Loss (Recompute & Print)");
+                Console.WriteLine("4. Exit");
+                Console.WriteLine("Enter your option:");
 
-                if (userChoice == "1")
+                string option = Console.ReadLine();
+
+                switch (option)
                 {
-                    PatientBill.CreateNewBill();
-                }
-                else if (userChoice == "2")
-                {
-                    PatientBill.ViewLastBill();
-                }
-                else if (userChoice == "3")
-                {
-                    PatientBill.ClearLastBill();
-                }
-                else if (userChoice == "4")
-                {
-                    Console.WriteLine("Thank you. Application closed normally.");
-                    keepRunning = false;
-                }
-                else
-                {
-                    Console.WriteLine("Please enter a number between 1 and 4.");
+                    case "1":
+                        SaleTransaction.CreateNewTransaction();
+                        break;
+                    case "2":
+                        SaleTransaction.ViewLastTransaction();
+                        break;
+                    case "3":
+                        SaleTransaction.CalculateProfitLoss();
+                        break;
+                    case "4":
+                        Console.WriteLine("Thank you. Application closed normally.");
+                        exitProgram = true;
+                        break;
+                    default:
+                        Console.WriteLine("Invalid option. Please select a valid menu option (1-4).");
+                        break;
                 }
 
-                if (keepRunning)
+                if (!exitProgram)
                 {
-                    Console.WriteLine("------------------------------------------------------------");
+                    Console.WriteLine("------------------------------------------------------");
                 }
             }
-        }
-        static void ShowMenu()
-        {
-            Console.WriteLine("================== MediSure Clinic Billing ==================");
-            Console.WriteLine("1. Create New Bill (Enter Patient Details)");
-            Console.WriteLine("2. View Last Bill");
-            Console.WriteLine("3. Clear Last Bill");
-            Console.WriteLine("4. Exit");
-            Console.Write("Enter your option: ");
         }
     }
 }
