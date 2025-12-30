@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_ENTITY\\LPU_ENTITY.csproj",
+      "projectUniqueName": "F:\\DotNetP\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_ENTITY\\LPU_ENTITY.csproj",
       "projectName": "LPU_ENTITY",
-      "projectPath": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_ENTITY\\LPU_ENTITY.csproj",
+      "projectPath": "F:\\DotNetP\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_ENTITY\\LPU_ENTITY.csproj",
       "packagesPath": "C:\\Users\\singh\\.nuget\\packages\\",
-      "outputPath": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_ENTITY\\obj\\",
+      "outputPath": "F:\\DotNetP\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_ENTITY\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\singh\\AppData\\Roaming\\NuGet\\NuGet.Config",

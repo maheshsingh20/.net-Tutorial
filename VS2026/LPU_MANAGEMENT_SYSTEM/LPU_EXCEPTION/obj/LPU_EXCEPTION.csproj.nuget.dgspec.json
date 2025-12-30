@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_EXCEPTION\\LPU_EXCEPTION.csproj": {}
+    "F:\\DotNetP\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_EXCEPTION\\LPU_EXCEPTION.csproj": {}
   },
   "projects": {
-    "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_EXCEPTION\\LPU_EXCEPTION.csproj": {
+    "F:\\DotNetP\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_EXCEPTION\\LPU_EXCEPTION.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_EXCEPTION\\LPU_EXCEPTION.csproj",
+        "projectUniqueName": "F:\\DotNetP\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_EXCEPTION\\LPU_EXCEPTION.csproj",
         "projectName": "LPU_EXCEPTION",
-        "projectPath": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_EXCEPTION\\LPU_EXCEPTION.csproj",
+        "projectPath": "F:\\DotNetP\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_EXCEPTION\\LPU_EXCEPTION.csproj",
         "packagesPath": "C:\\Users\\singh\\.nuget\\packages\\",
-        "outputPath": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_EXCEPTION\\obj\\",
+        "outputPath": "F:\\DotNetP\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_EXCEPTION\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\singh\\AppData\\Roaming\\NuGet\\NuGet.Config",

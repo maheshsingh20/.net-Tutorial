@@ -1,11 +1,64 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "LPU_COMMON/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "LPU_ENTITY": "1.0.0",
+          "LPU_EXCEPTION": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LPU_COMMON.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LPU_COMMON.dll": {}
+        }
+      },
+      "LPU_ENTITY/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/LPU_ENTITY.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LPU_ENTITY.dll": {}
+        }
+      },
+      "LPU_EXCEPTION/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/LPU_EXCEPTION.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LPU_EXCEPTION.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LPU_COMMON/1.0.0": {
+      "type": "project",
+      "path": "../LPU_COMMON/LPU_COMMON.csproj",
+      "msbuildProject": "../LPU_COMMON/LPU_COMMON.csproj"
+    },
+    "LPU_ENTITY/1.0.0": {
+      "type": "project",
+      "path": "../LPU_ENTITY/LPU_ENTITY.csproj",
+      "msbuildProject": "../LPU_ENTITY/LPU_ENTITY.csproj"
+    },
+    "LPU_EXCEPTION/1.0.0": {
+      "type": "project",
+      "path": "../LPU_EXCEPTION/LPU_EXCEPTION.csproj",
+      "msbuildProject": "../LPU_EXCEPTION/LPU_EXCEPTION.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "LPU_COMMON >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\singh\\.nuget\\packages\\": {}
@@ -13,11 +66,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_DAL\\LPU_DAL.csproj",
+      "projectUniqueName": "F:\\DotNetP\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_DAL\\LPU_DAL.csproj",
       "projectName": "LPU_DAL",
-      "projectPath": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_DAL\\LPU_DAL.csproj",
+      "projectPath": "F:\\DotNetP\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_DAL\\LPU_DAL.csproj",
       "packagesPath": "C:\\Users\\singh\\.nuget\\packages\\",
-      "outputPath": "E:\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_DAL\\obj\\",
+      "outputPath": "F:\\DotNetP\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +86,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\DotNetP\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_COMMON\\LPU_COMMON.csproj": {
+              "projectPath": "F:\\DotNetP\\VS2026\\LPU_MANAGEMENT_SYSTEM\\LPU_COMMON\\LPU_COMMON.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
