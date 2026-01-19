@@ -1,0 +1,15 @@
+F:\DotNetP\EmployeeApp\bin\Debug\net10.0\EmployeeApp.exe
+F:\DotNetP\EmployeeApp\bin\Debug\net10.0\EmployeeApp.deps.json
+F:\DotNetP\EmployeeApp\bin\Debug\net10.0\EmployeeApp.runtimeconfig.json
+F:\DotNetP\EmployeeApp\bin\Debug\net10.0\EmployeeApp.dll
+F:\DotNetP\EmployeeApp\bin\Debug\net10.0\EmployeeApp.pdb
+F:\DotNetP\EmployeeApp\obj\Debug\net10.0\EmployeeApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\EmployeeApp\obj\Debug\net10.0\EmployeeApp.AssemblyInfoInputs.cache
+F:\DotNetP\EmployeeApp\obj\Debug\net10.0\EmployeeApp.AssemblyInfo.cs
+F:\DotNetP\EmployeeApp\obj\Debug\net10.0\EmployeeApp.csproj.CoreCompileInputs.cache
+F:\DotNetP\EmployeeApp\obj\Debug\net10.0\EmployeeApp.sourcelink.json
+F:\DotNetP\EmployeeApp\obj\Debug\net10.0\EmployeeApp.dll
+F:\DotNetP\EmployeeApp\obj\Debug\net10.0\refint\EmployeeApp.dll
+F:\DotNetP\EmployeeApp\obj\Debug\net10.0\EmployeeApp.pdb
+F:\DotNetP\EmployeeApp\obj\Debug\net10.0\EmployeeApp.genruntimeconfig.cache
+F:\DotNetP\EmployeeApp\obj\Debug\net10.0\ref\EmployeeApp.dll

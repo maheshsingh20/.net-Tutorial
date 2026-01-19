@@ -1,0 +1,15 @@
+F:\DotNetP\DataStructures\bin\Debug\net10.0\DataStructures.exe
+F:\DotNetP\DataStructures\bin\Debug\net10.0\DataStructures.deps.json
+F:\DotNetP\DataStructures\bin\Debug\net10.0\DataStructures.runtimeconfig.json
+F:\DotNetP\DataStructures\bin\Debug\net10.0\DataStructures.dll
+F:\DotNetP\DataStructures\bin\Debug\net10.0\DataStructures.pdb
+F:\DotNetP\DataStructures\obj\Debug\net10.0\DataStructures.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\DataStructures\obj\Debug\net10.0\DataStructures.AssemblyInfoInputs.cache
+F:\DotNetP\DataStructures\obj\Debug\net10.0\DataStructures.AssemblyInfo.cs
+F:\DotNetP\DataStructures\obj\Debug\net10.0\DataStructures.csproj.CoreCompileInputs.cache
+F:\DotNetP\DataStructures\obj\Debug\net10.0\DataStructures.sourcelink.json
+F:\DotNetP\DataStructures\obj\Debug\net10.0\DataStructures.dll
+F:\DotNetP\DataStructures\obj\Debug\net10.0\refint\DataStructures.dll
+F:\DotNetP\DataStructures\obj\Debug\net10.0\DataStructures.pdb
+F:\DotNetP\DataStructures\obj\Debug\net10.0\DataStructures.genruntimeconfig.cache
+F:\DotNetP\DataStructures\obj\Debug\net10.0\ref\DataStructures.dll

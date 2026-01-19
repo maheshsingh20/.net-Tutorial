@@ -1,0 +1,15 @@
+F:\DotNetP\OOPConcepts\bin\Debug\net10.0\OOPConcepts.exe
+F:\DotNetP\OOPConcepts\bin\Debug\net10.0\OOPConcepts.deps.json
+F:\DotNetP\OOPConcepts\bin\Debug\net10.0\OOPConcepts.runtimeconfig.json
+F:\DotNetP\OOPConcepts\bin\Debug\net10.0\OOPConcepts.dll
+F:\DotNetP\OOPConcepts\bin\Debug\net10.0\OOPConcepts.pdb
+F:\DotNetP\OOPConcepts\obj\Debug\net10.0\OOPConcepts.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\OOPConcepts\obj\Debug\net10.0\OOPConcepts.AssemblyInfoInputs.cache
+F:\DotNetP\OOPConcepts\obj\Debug\net10.0\OOPConcepts.AssemblyInfo.cs
+F:\DotNetP\OOPConcepts\obj\Debug\net10.0\OOPConcepts.csproj.CoreCompileInputs.cache
+F:\DotNetP\OOPConcepts\obj\Debug\net10.0\OOPConcepts.sourcelink.json
+F:\DotNetP\OOPConcepts\obj\Debug\net10.0\OOPConcepts.dll
+F:\DotNetP\OOPConcepts\obj\Debug\net10.0\refint\OOPConcepts.dll
+F:\DotNetP\OOPConcepts\obj\Debug\net10.0\OOPConcepts.pdb
+F:\DotNetP\OOPConcepts\obj\Debug\net10.0\OOPConcepts.genruntimeconfig.cache
+F:\DotNetP\OOPConcepts\obj\Debug\net10.0\ref\OOPConcepts.dll
