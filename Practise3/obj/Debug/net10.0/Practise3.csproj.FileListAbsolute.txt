@@ -1,0 +1,15 @@
+F:\DotNetP\Practise3\bin\Debug\net10.0\Practise3.exe
+F:\DotNetP\Practise3\bin\Debug\net10.0\Practise3.deps.json
+F:\DotNetP\Practise3\bin\Debug\net10.0\Practise3.runtimeconfig.json
+F:\DotNetP\Practise3\bin\Debug\net10.0\Practise3.dll
+F:\DotNetP\Practise3\bin\Debug\net10.0\Practise3.pdb
+F:\DotNetP\Practise3\obj\Debug\net10.0\Practise3.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\Practise3\obj\Debug\net10.0\Practise3.AssemblyInfoInputs.cache
+F:\DotNetP\Practise3\obj\Debug\net10.0\Practise3.AssemblyInfo.cs
+F:\DotNetP\Practise3\obj\Debug\net10.0\Practise3.csproj.CoreCompileInputs.cache
+F:\DotNetP\Practise3\obj\Debug\net10.0\Practise3.sourcelink.json
+F:\DotNetP\Practise3\obj\Debug\net10.0\Practise3.dll
+F:\DotNetP\Practise3\obj\Debug\net10.0\refint\Practise3.dll
+F:\DotNetP\Practise3\obj\Debug\net10.0\Practise3.pdb
+F:\DotNetP\Practise3\obj\Debug\net10.0\Practise3.genruntimeconfig.cache
+F:\DotNetP\Practise3\obj\Debug\net10.0\ref\Practise3.dll

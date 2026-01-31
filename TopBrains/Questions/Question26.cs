@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-
 namespace TopBrains.Questions
 {
     public static class StringArrayExtensions
@@ -22,14 +21,12 @@ namespace TopBrains.Questions
             return result.ToArray();
         }
     }
-    
     public class Question26
     {
         public static string[] GetDistinctNames(string[] items)
         {
             HashSet<string> seenIds = new HashSet<string>();
-            List<string> distinctNames = new List<string>();
-            
+            List<string> distinctNames = new List<string>();       
             foreach (string item in items)
             {
                 string[] parts = item.Split(':');
@@ -37,17 +34,14 @@ namespace TopBrains.Questions
                 {
                     string id = parts[0];
                     string name = parts[1];
-                    
                     if (seenIds.Add(id))
                     {
                         distinctNames.Add(name);
                     }
                 }
             }
-            
             return distinctNames.ToArray();
         }
-        
         public static void Main(string[] args)
         {
             Console.Write("Enter number of items: ");
