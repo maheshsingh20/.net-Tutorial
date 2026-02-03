@@ -92,26 +92,38 @@ select * from OrderDetails
 
 --question 2
 
-WITH OrderTotals AS
+
+WITH Q AS
 (
-    SELECT 
-        OrderID,
-        SUM(CAST(q.value AS INT) * CAST(p.value AS INT)) AS TotalSales
+    SELECT OrderID, value AS Qty,
+           ROW_NUMBER() OVER (PARTITION BY OrderID ORDER BY (SELECT NULL)) rn
     FROM Sales_Raw
-    CROSS APPLY STRING_SPLIT(Quantities, ',') q
-    CROSS APPLY STRING_SPLIT(UnitPrices, ',') p
-    GROUP BY OrderID
+    CROSS APPLY STRING_SPLIT(Quantities, ',')
+),
+P AS
+(
+    SELECT OrderID, value AS Price,
+           ROW_NUMBER() OVER (PARTITION BY OrderID ORDER BY (SELECT NULL)) rn
+    FROM Sales_Raw
+    CROSS APPLY STRING_SPLIT(UnitPrices, ',')
+),
+OrderTotals AS
+(
+    SELECT Q.OrderID,
+           SUM(CAST(Q.Qty AS INT) * CAST(P.Price AS INT)) AS TotalSales
+    FROM Q
+    JOIN P ON Q.OrderID = P.OrderID AND Q.rn = P.rn
+    GROUP BY Q.OrderID
 ),
 RankedOrders AS
 (
     SELECT *,
-           DENSE_RANK() OVER (ORDER BY TotalSales DESC) AS rnk
+           DENSE_RANK() OVER (ORDER BY TotalSales DESC) rnk
     FROM OrderTotals
 )
 SELECT TotalSales
 FROM RankedOrders
 WHERE rnk = 3;
-
 
 
 
