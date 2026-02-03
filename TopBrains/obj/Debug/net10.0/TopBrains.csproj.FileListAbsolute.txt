@@ -13,3 +13,6 @@ F:\DotNetP\TopBrains\obj\Debug\net10.0\refint\TopBrains.dll
 F:\DotNetP\TopBrains\obj\Debug\net10.0\TopBrains.pdb
 F:\DotNetP\TopBrains\obj\Debug\net10.0\TopBrains.genruntimeconfig.cache
 F:\DotNetP\TopBrains\obj\Debug\net10.0\ref\TopBrains.dll
+F:\DotNetP\TopBrains\obj\Debug\net10.0\TopBrains.csproj.AssemblyReference.cache
+F:\DotNetP\TopBrains\obj\Debug\net10.0\TopBrains.gentestingplatformentrypointinputcache.cache
+F:\DotNetP\TopBrains\obj\Debug\net10.0\TopBrains.genautoregisteredextensionsinputcache.cache
