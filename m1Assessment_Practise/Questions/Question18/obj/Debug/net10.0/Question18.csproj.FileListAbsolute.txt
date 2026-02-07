@@ -1,0 +1,15 @@
+F:\DotNetP\m1Assessment_Practise\Questions\Question18\bin\Debug\net10.0\Question18.exe
+F:\DotNetP\m1Assessment_Practise\Questions\Question18\bin\Debug\net10.0\Question18.deps.json
+F:\DotNetP\m1Assessment_Practise\Questions\Question18\bin\Debug\net10.0\Question18.runtimeconfig.json
+F:\DotNetP\m1Assessment_Practise\Questions\Question18\bin\Debug\net10.0\Question18.dll
+F:\DotNetP\m1Assessment_Practise\Questions\Question18\bin\Debug\net10.0\Question18.pdb
+F:\DotNetP\m1Assessment_Practise\Questions\Question18\obj\Debug\net10.0\Question18.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\m1Assessment_Practise\Questions\Question18\obj\Debug\net10.0\Question18.AssemblyInfoInputs.cache
+F:\DotNetP\m1Assessment_Practise\Questions\Question18\obj\Debug\net10.0\Question18.AssemblyInfo.cs
+F:\DotNetP\m1Assessment_Practise\Questions\Question18\obj\Debug\net10.0\Question18.csproj.CoreCompileInputs.cache
+F:\DotNetP\m1Assessment_Practise\Questions\Question18\obj\Debug\net10.0\Question18.sourcelink.json
+F:\DotNetP\m1Assessment_Practise\Questions\Question18\obj\Debug\net10.0\Question18.dll
+F:\DotNetP\m1Assessment_Practise\Questions\Question18\obj\Debug\net10.0\refint\Question18.dll
+F:\DotNetP\m1Assessment_Practise\Questions\Question18\obj\Debug\net10.0\Question18.pdb
+F:\DotNetP\m1Assessment_Practise\Questions\Question18\obj\Debug\net10.0\Question18.genruntimeconfig.cache
+F:\DotNetP\m1Assessment_Practise\Questions\Question18\obj\Debug\net10.0\ref\Question18.dll
