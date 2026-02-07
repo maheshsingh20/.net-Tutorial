@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- Change this to run different questions -->
+    <!-- Example: <StartupObject>m1Assessment_Practise.Questions.Question1.Problem</StartupObject> -->
+    <StartupObject>m1Assessment_Practise.Questions.Question1.Problem</StartupObject>
+  </PropertyGroup>
+
+</Project>

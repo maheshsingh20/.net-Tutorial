@@ -1,0 +1,15 @@
+F:\DotNetP\m1Assessment_Practise\Questions\Question22\bin\Debug\net10.0\Question22.exe
+F:\DotNetP\m1Assessment_Practise\Questions\Question22\bin\Debug\net10.0\Question22.deps.json
+F:\DotNetP\m1Assessment_Practise\Questions\Question22\bin\Debug\net10.0\Question22.runtimeconfig.json
+F:\DotNetP\m1Assessment_Practise\Questions\Question22\bin\Debug\net10.0\Question22.dll
+F:\DotNetP\m1Assessment_Practise\Questions\Question22\bin\Debug\net10.0\Question22.pdb
+F:\DotNetP\m1Assessment_Practise\Questions\Question22\obj\Debug\net10.0\Question22.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\m1Assessment_Practise\Questions\Question22\obj\Debug\net10.0\Question22.AssemblyInfoInputs.cache
+F:\DotNetP\m1Assessment_Practise\Questions\Question22\obj\Debug\net10.0\Question22.AssemblyInfo.cs
+F:\DotNetP\m1Assessment_Practise\Questions\Question22\obj\Debug\net10.0\Question22.csproj.CoreCompileInputs.cache
+F:\DotNetP\m1Assessment_Practise\Questions\Question22\obj\Debug\net10.0\Question22.sourcelink.json
+F:\DotNetP\m1Assessment_Practise\Questions\Question22\obj\Debug\net10.0\Question22.dll
+F:\DotNetP\m1Assessment_Practise\Questions\Question22\obj\Debug\net10.0\refint\Question22.dll
+F:\DotNetP\m1Assessment_Practise\Questions\Question22\obj\Debug\net10.0\Question22.pdb
+F:\DotNetP\m1Assessment_Practise\Questions\Question22\obj\Debug\net10.0\Question22.genruntimeconfig.cache
+F:\DotNetP\m1Assessment_Practise\Questions\Question22\obj\Debug\net10.0\ref\Question22.dll

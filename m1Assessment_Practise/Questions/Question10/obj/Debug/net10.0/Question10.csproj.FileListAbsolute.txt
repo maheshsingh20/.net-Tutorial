@@ -1,0 +1,15 @@
+F:\DotNetP\m1Assessment_Practise\Questions\Question10\bin\Debug\net10.0\Question10.exe
+F:\DotNetP\m1Assessment_Practise\Questions\Question10\bin\Debug\net10.0\Question10.deps.json
+F:\DotNetP\m1Assessment_Practise\Questions\Question10\bin\Debug\net10.0\Question10.runtimeconfig.json
+F:\DotNetP\m1Assessment_Practise\Questions\Question10\bin\Debug\net10.0\Question10.dll
+F:\DotNetP\m1Assessment_Practise\Questions\Question10\bin\Debug\net10.0\Question10.pdb
+F:\DotNetP\m1Assessment_Practise\Questions\Question10\obj\Debug\net10.0\Question10.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\m1Assessment_Practise\Questions\Question10\obj\Debug\net10.0\Question10.AssemblyInfoInputs.cache
+F:\DotNetP\m1Assessment_Practise\Questions\Question10\obj\Debug\net10.0\Question10.AssemblyInfo.cs
+F:\DotNetP\m1Assessment_Practise\Questions\Question10\obj\Debug\net10.0\Question10.csproj.CoreCompileInputs.cache
+F:\DotNetP\m1Assessment_Practise\Questions\Question10\obj\Debug\net10.0\Question10.sourcelink.json
+F:\DotNetP\m1Assessment_Practise\Questions\Question10\obj\Debug\net10.0\Question10.dll
+F:\DotNetP\m1Assessment_Practise\Questions\Question10\obj\Debug\net10.0\refint\Question10.dll
+F:\DotNetP\m1Assessment_Practise\Questions\Question10\obj\Debug\net10.0\Question10.pdb
+F:\DotNetP\m1Assessment_Practise\Questions\Question10\obj\Debug\net10.0\Question10.genruntimeconfig.cache
+F:\DotNetP\m1Assessment_Practise\Questions\Question10\obj\Debug\net10.0\ref\Question10.dll
