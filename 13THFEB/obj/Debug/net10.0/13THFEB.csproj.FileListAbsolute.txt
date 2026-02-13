@@ -1,0 +1,15 @@
+F:\DotNetP\13THFEB\bin\Debug\net10.0\13THFEB.exe
+F:\DotNetP\13THFEB\bin\Debug\net10.0\13THFEB.deps.json
+F:\DotNetP\13THFEB\bin\Debug\net10.0\13THFEB.runtimeconfig.json
+F:\DotNetP\13THFEB\bin\Debug\net10.0\13THFEB.dll
+F:\DotNetP\13THFEB\bin\Debug\net10.0\13THFEB.pdb
+F:\DotNetP\13THFEB\obj\Debug\net10.0\13THFEB.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\13THFEB\obj\Debug\net10.0\13THFEB.AssemblyInfoInputs.cache
+F:\DotNetP\13THFEB\obj\Debug\net10.0\13THFEB.AssemblyInfo.cs
+F:\DotNetP\13THFEB\obj\Debug\net10.0\13THFEB.csproj.CoreCompileInputs.cache
+F:\DotNetP\13THFEB\obj\Debug\net10.0\13THFEB.sourcelink.json
+F:\DotNetP\13THFEB\obj\Debug\net10.0\13THFEB.dll
+F:\DotNetP\13THFEB\obj\Debug\net10.0\refint\13THFEB.dll
+F:\DotNetP\13THFEB\obj\Debug\net10.0\13THFEB.pdb
+F:\DotNetP\13THFEB\obj\Debug\net10.0\13THFEB.genruntimeconfig.cache
+F:\DotNetP\13THFEB\obj\Debug\net10.0\ref\13THFEB.dll
