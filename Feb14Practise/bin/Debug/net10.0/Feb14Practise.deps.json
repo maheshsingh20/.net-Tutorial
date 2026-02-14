@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Feb14Practise/1.0.0": {
+        "runtime": {
+          "Feb14Practise.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Feb14Practise/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
