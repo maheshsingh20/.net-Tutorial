@@ -1,0 +1,15 @@
+F:\DotNetP\Feb14Practise2\bin\Debug\net10.0\Feb14Practise2.exe
+F:\DotNetP\Feb14Practise2\bin\Debug\net10.0\Feb14Practise2.deps.json
+F:\DotNetP\Feb14Practise2\bin\Debug\net10.0\Feb14Practise2.runtimeconfig.json
+F:\DotNetP\Feb14Practise2\bin\Debug\net10.0\Feb14Practise2.dll
+F:\DotNetP\Feb14Practise2\bin\Debug\net10.0\Feb14Practise2.pdb
+F:\DotNetP\Feb14Practise2\obj\Debug\net10.0\Feb14Practise2.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\Feb14Practise2\obj\Debug\net10.0\Feb14Practise2.AssemblyInfoInputs.cache
+F:\DotNetP\Feb14Practise2\obj\Debug\net10.0\Feb14Practise2.AssemblyInfo.cs
+F:\DotNetP\Feb14Practise2\obj\Debug\net10.0\Feb14Practise2.csproj.CoreCompileInputs.cache
+F:\DotNetP\Feb14Practise2\obj\Debug\net10.0\Feb14Practise2.sourcelink.json
+F:\DotNetP\Feb14Practise2\obj\Debug\net10.0\Feb14Practise2.dll
+F:\DotNetP\Feb14Practise2\obj\Debug\net10.0\refint\Feb14Practise2.dll
+F:\DotNetP\Feb14Practise2\obj\Debug\net10.0\Feb14Practise2.pdb
+F:\DotNetP\Feb14Practise2\obj\Debug\net10.0\Feb14Practise2.genruntimeconfig.cache
+F:\DotNetP\Feb14Practise2\obj\Debug\net10.0\ref\Feb14Practise2.dll
