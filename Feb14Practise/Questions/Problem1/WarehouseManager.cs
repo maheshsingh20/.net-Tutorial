@@ -65,7 +65,7 @@ namespace Problem1.SmartWarehouse
 
         public void DisplayInventory()
         {
-            Console.WriteLine("\n=== Warehouse Inventory ===");
+            Console.WriteLine("\nWarehouse Inventory:");
             foreach (var kvp in inventory)
             {
                 Console.WriteLine($"\nPriority {kvp.Key}:");

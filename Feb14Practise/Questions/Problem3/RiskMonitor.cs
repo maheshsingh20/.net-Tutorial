@@ -28,7 +28,7 @@ namespace Problem3.BankingRisk
 
         public void DisplayTransactions()
         {
-            Console.WriteLine("\n=== Transaction Risk Monitor ===");
+            Console.WriteLine("\nTransaction Risk Monitor");
             foreach (var kvp in transactions)
             {
                 Console.WriteLine($"\nRisk Score {kvp.Key}:");

@@ -61,7 +61,7 @@ namespace Problem2.HospitalEmergency
 
         public void DisplayQueue()
         {
-            Console.WriteLine("\n=== Emergency Queue ===");
+            Console.WriteLine("\nEmergency Queue");
             foreach (var kvp in emergencyQueue)
             {
                 Console.WriteLine($"\nSeverity {kvp.Key}:");

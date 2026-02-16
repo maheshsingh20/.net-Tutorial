@@ -1,0 +1,15 @@
+F:\DotNetP\Feb10\obj\Debug\net10.0\Feb10.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\Feb10\obj\Debug\net10.0\Feb10.AssemblyInfoInputs.cache
+F:\DotNetP\Feb10\obj\Debug\net10.0\Feb10.AssemblyInfo.cs
+F:\DotNetP\Feb10\obj\Debug\net10.0\Feb10.csproj.CoreCompileInputs.cache
+F:\DotNetP\Feb10\obj\Debug\net10.0\Feb10.sourcelink.json
+F:\DotNetP\Feb10\bin\Debug\net10.0\Feb10.exe
+F:\DotNetP\Feb10\bin\Debug\net10.0\Feb10.deps.json
+F:\DotNetP\Feb10\bin\Debug\net10.0\Feb10.runtimeconfig.json
+F:\DotNetP\Feb10\bin\Debug\net10.0\Feb10.dll
+F:\DotNetP\Feb10\bin\Debug\net10.0\Feb10.pdb
+F:\DotNetP\Feb10\obj\Debug\net10.0\Feb10.dll
+F:\DotNetP\Feb10\obj\Debug\net10.0\refint\Feb10.dll
+F:\DotNetP\Feb10\obj\Debug\net10.0\Feb10.pdb
+F:\DotNetP\Feb10\obj\Debug\net10.0\Feb10.genruntimeconfig.cache
+F:\DotNetP\Feb10\obj\Debug\net10.0\ref\Feb10.dll

@@ -6,7 +6,7 @@ namespace Problem5.UniversityCourse
     {
         public static void Run()
         {
-            Console.WriteLine("\n=== Problem 5: University Course Registration Priority ===\n");
+            Console.WriteLine("\nProblem 5: University Course Registration Priority\n");
             CourseManager course = new CourseManager(5);
 
             try
@@ -19,7 +19,7 @@ namespace Problem5.UniversityCourse
                 course.DisplayRegistrations();
                 course.AllocateSeats();
 
-                Console.WriteLine("\n--- Testing Duplicate Enrollment ---");
+                Console.WriteLine("\nTesting Duplicate Enrollment");
                 course.RegisterStudent(new Student("S001", "Alice", 20, 9.2, "Computer Science"));
             }
             catch (DuplicateEnrollmentException ex)

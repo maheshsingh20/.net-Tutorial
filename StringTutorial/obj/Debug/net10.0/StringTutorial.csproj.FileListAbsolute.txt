@@ -1,0 +1,15 @@
+F:\DotNetP\StringTutorial\bin\Debug\net10.0\StringTutorial.exe
+F:\DotNetP\StringTutorial\bin\Debug\net10.0\StringTutorial.deps.json
+F:\DotNetP\StringTutorial\bin\Debug\net10.0\StringTutorial.runtimeconfig.json
+F:\DotNetP\StringTutorial\bin\Debug\net10.0\StringTutorial.dll
+F:\DotNetP\StringTutorial\bin\Debug\net10.0\StringTutorial.pdb
+F:\DotNetP\StringTutorial\obj\Debug\net10.0\StringTutorial.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\StringTutorial\obj\Debug\net10.0\StringTutorial.AssemblyInfoInputs.cache
+F:\DotNetP\StringTutorial\obj\Debug\net10.0\StringTutorial.AssemblyInfo.cs
+F:\DotNetP\StringTutorial\obj\Debug\net10.0\StringTutorial.csproj.CoreCompileInputs.cache
+F:\DotNetP\StringTutorial\obj\Debug\net10.0\StringTutorial.sourcelink.json
+F:\DotNetP\StringTutorial\obj\Debug\net10.0\StringTutorial.dll
+F:\DotNetP\StringTutorial\obj\Debug\net10.0\refint\StringTutorial.dll
+F:\DotNetP\StringTutorial\obj\Debug\net10.0\StringTutorial.pdb
+F:\DotNetP\StringTutorial\obj\Debug\net10.0\StringTutorial.genruntimeconfig.cache
+F:\DotNetP\StringTutorial\obj\Debug\net10.0\ref\StringTutorial.dll

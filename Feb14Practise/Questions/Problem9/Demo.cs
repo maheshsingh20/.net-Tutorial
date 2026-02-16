@@ -6,7 +6,7 @@ namespace Problem9.ITSupport
     {
         public static void Run()
         {
-            Console.WriteLine("\n=== Problem 9: IT Support Ticket Severity System ===\n");
+            Console.WriteLine("\nProblem 9: IT Support Ticket Severity System\n");
             TicketSystem system = new TicketSystem();
 
             try
@@ -20,11 +20,11 @@ namespace Problem9.ITSupport
 
                 system.DisplayTickets();
 
-                Console.WriteLine("\n--- Processing Tickets ---");
+                Console.WriteLine("\nProcessing Tickets");
                 var ticket1 = system.ProcessTicket();
                 admin1.ResolveTicket(ticket1);
 
-                Console.WriteLine("\n--- Escalating Ticket ---");
+                Console.WriteLine("\nEscalating Ticket");
                 system.EscalateTicket("T002");
 
                 system.DisplayTickets();

@@ -1,5 +1,4 @@
 namespace m1Assessment_Practise.Questions.Question19;
-
 class AuditEntry
 {
     public string EntityName { get; set; } = "";

@@ -44,7 +44,7 @@ namespace Problem7.LibraryFine
 
         public void DisplayFines()
         {
-            Console.WriteLine("\n=== Outstanding Fines (Sorted by Amount) ===");
+            Console.WriteLine("\nOutstanding Fines (Sorted by Amount)");
             foreach (var kvp in fines)
             {
                 Console.WriteLine($"₹{kvp.Key}: {kvp.Value.Name} ({kvp.Value.GetMemberType()})");

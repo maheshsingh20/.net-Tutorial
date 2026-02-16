@@ -46,12 +46,12 @@ namespace Problem6.FlashSale
         public void CloseAuction()
         {
             isAuctionOpen = false;
-            Console.WriteLine("\n--- Auction Closed ---");
+            Console.WriteLine("\nAuction Closed");
         }
 
         public void DisplayBids()
         {
-            Console.WriteLine("\n=== Current Bids (Highest First) ===");
+            Console.WriteLine("\nCurrent Bids (Highest First)");
             foreach (var kvp in bids)
             {
                 Console.WriteLine($"\nBid Amount: ₹{kvp.Key}");

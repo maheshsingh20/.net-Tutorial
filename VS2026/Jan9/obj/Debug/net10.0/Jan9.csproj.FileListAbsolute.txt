@@ -1,0 +1,14 @@
+E:\VS2026\Jan9\bin\Debug\net10.0\Jan9.exe
+E:\VS2026\Jan9\bin\Debug\net10.0\Jan9.deps.json
+E:\VS2026\Jan9\bin\Debug\net10.0\Jan9.runtimeconfig.json
+E:\VS2026\Jan9\bin\Debug\net10.0\Jan9.dll
+E:\VS2026\Jan9\bin\Debug\net10.0\Jan9.pdb
+E:\VS2026\Jan9\obj\Debug\net10.0\Jan9.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS2026\Jan9\obj\Debug\net10.0\Jan9.AssemblyInfoInputs.cache
+E:\VS2026\Jan9\obj\Debug\net10.0\Jan9.AssemblyInfo.cs
+E:\VS2026\Jan9\obj\Debug\net10.0\Jan9.csproj.CoreCompileInputs.cache
+E:\VS2026\Jan9\obj\Debug\net10.0\Jan9.dll
+E:\VS2026\Jan9\obj\Debug\net10.0\refint\Jan9.dll
+E:\VS2026\Jan9\obj\Debug\net10.0\Jan9.pdb
+E:\VS2026\Jan9\obj\Debug\net10.0\Jan9.genruntimeconfig.cache
+E:\VS2026\Jan9\obj\Debug\net10.0\ref\Jan9.dll

@@ -6,7 +6,7 @@ namespace Problem3.BankingRisk
     {
         public static void Run()
         {
-            Console.WriteLine("\n=== Problem 3: Banking Transaction Risk Monitoring ===\n");
+            Console.WriteLine("\nProblem 3: Banking Transaction Risk Monitoring\n");
             RiskMonitor monitor = new RiskMonitor();
 
             try
@@ -18,7 +18,7 @@ namespace Problem3.BankingRisk
 
                 monitor.DisplayTransactions();
 
-                Console.WriteLine("\n--- High Risk Transactions ---");
+                Console.WriteLine("\nHigh Risk Transactions");
                 var highRisk = monitor.GetHighRiskTransactions();
                 foreach (var txn in highRisk)
                     Console.WriteLine($"  {txn.TransactionId}: ₹{txn.Amount}");

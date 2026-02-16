@@ -26,7 +26,7 @@ namespace Problem4.AirlineBooking
 
         public void DisplayBookings()
         {
-            Console.WriteLine("\n=== Airline Bookings (Sorted by Fare) ===");
+            Console.WriteLine("\nAirline Bookings (Sorted by Fare)");
             foreach (var kvp in bookings)
             {
                 Console.WriteLine($"\nFare: ₹{kvp.Key}");

@@ -1,0 +1,15 @@
+F:\DotNetP\ATutorial\obj\Debug\net10.0\ATutorial.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\ATutorial\obj\Debug\net10.0\ATutorial.AssemblyInfoInputs.cache
+F:\DotNetP\ATutorial\obj\Debug\net10.0\ATutorial.AssemblyInfo.cs
+F:\DotNetP\ATutorial\obj\Debug\net10.0\ATutorial.csproj.CoreCompileInputs.cache
+F:\DotNetP\ATutorial\obj\Debug\net10.0\ATutorial.sourcelink.json
+F:\DotNetP\ATutorial\bin\Debug\net10.0\ATutorial.exe
+F:\DotNetP\ATutorial\bin\Debug\net10.0\ATutorial.deps.json
+F:\DotNetP\ATutorial\bin\Debug\net10.0\ATutorial.runtimeconfig.json
+F:\DotNetP\ATutorial\bin\Debug\net10.0\ATutorial.dll
+F:\DotNetP\ATutorial\bin\Debug\net10.0\ATutorial.pdb
+F:\DotNetP\ATutorial\obj\Debug\net10.0\ATutorial.dll
+F:\DotNetP\ATutorial\obj\Debug\net10.0\refint\ATutorial.dll
+F:\DotNetP\ATutorial\obj\Debug\net10.0\ATutorial.pdb
+F:\DotNetP\ATutorial\obj\Debug\net10.0\ATutorial.genruntimeconfig.cache
+F:\DotNetP\ATutorial\obj\Debug\net10.0\ref\ATutorial.dll

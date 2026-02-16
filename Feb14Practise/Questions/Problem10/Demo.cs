@@ -6,7 +6,7 @@ namespace Problem10.InvestmentPortfolio
     {
         public static void Run()
         {
-            Console.WriteLine("\n=== Problem 10: Investment Portfolio Risk Categorization ===\n");
+            Console.WriteLine("\nProblem 10: Investment Portfolio Risk Categorization\n");
             PortfolioManager manager = new PortfolioManager();
 
             try

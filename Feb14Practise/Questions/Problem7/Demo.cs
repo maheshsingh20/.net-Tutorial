@@ -6,7 +6,7 @@ namespace Problem7.LibraryFine
     {
         public static void Run()
         {
-            Console.WriteLine("\n=== Problem 7: Library Fine Calculation & Penalty ===\n");
+            Console.WriteLine("\nProblem 7: Library Fine Calculation & Penalty\n");
             FineManager manager = new FineManager();
 
             try
@@ -21,7 +21,7 @@ namespace Problem7.LibraryFine
 
                 manager.DisplayFines();
 
-                Console.WriteLine("\n--- Processing Payment ---");
+                Console.WriteLine("\nProcessing Payment");
                 manager.PayFine("M001", 30);
 
                 manager.DisplayFines();

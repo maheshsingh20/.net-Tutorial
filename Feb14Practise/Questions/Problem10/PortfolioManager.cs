@@ -41,7 +41,7 @@ namespace Problem10.InvestmentPortfolio
                 }
             }
 
-            Console.WriteLine($"\n=== Portfolio Risk Analysis ===");
+            Console.WriteLine($"\nPortfolio Risk Analysis");
             Console.WriteLine($"Total Investment: ₹{totalInvestment:N2}");
             Console.WriteLine($"Weighted Average Risk: {weightedRisk:F2}");
             Console.WriteLine($"Risk Category: {GetRiskCategory(weightedRisk)}");
@@ -56,7 +56,7 @@ namespace Problem10.InvestmentPortfolio
 
         public void DisplayPortfolio()
         {
-            Console.WriteLine("\n=== Investment Portfolio (By Risk Rating) ===");
+            Console.WriteLine("\nInvestment Portfolio (By Risk Rating)");
             foreach (var kvp in portfolio)
             {
                 Console.WriteLine($"\nRisk Rating {kvp.Key}:");

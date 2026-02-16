@@ -1,0 +1,9 @@
+E:\VS2026\UMS\Student1\obj\Debug\Student1.csproj.AssemblyReference.cache
+E:\VS2026\UMS\Student1\obj\Debug\Student1.csproj.CoreCompileInputs.cache
+F:\DotNetP\VS2026\UMS\Student1\obj\Debug\Student1.csproj.AssemblyReference.cache
+F:\DotNetP\VS2026\UMS\Student1\obj\Debug\Student1.csproj.CoreCompileInputs.cache
+F:\DotNetP\VS2026\UMS\Student1\bin\Debug\Student1.exe.config
+F:\DotNetP\VS2026\UMS\Student1\bin\Debug\Student1.exe
+F:\DotNetP\VS2026\UMS\Student1\bin\Debug\Student1.pdb
+F:\DotNetP\VS2026\UMS\Student1\obj\Debug\Student1.exe
+F:\DotNetP\VS2026\UMS\Student1\obj\Debug\Student1.pdb

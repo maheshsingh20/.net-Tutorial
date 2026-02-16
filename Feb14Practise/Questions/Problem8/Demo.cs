@@ -6,7 +6,7 @@ namespace Problem8.TrafficViolation
     {
         public static void Run()
         {
-            Console.WriteLine("\n=== Problem 8: Smart Traffic Violation Monitoring ===\n");
+            Console.WriteLine("\nProblem 8: Smart Traffic Violation Monitoring\n");
             TrafficMonitor monitor = new TrafficMonitor();
 
             try
@@ -22,7 +22,7 @@ namespace Problem8.TrafficViolation
 
                 monitor.DisplayViolations();
 
-                Console.WriteLine("\n--- Repeat Offenders ---");
+                Console.WriteLine("\nRepeat Offenders");
                 monitor.EscalateRepeatOffenders();
             }
             catch (Exception ex)

@@ -66,7 +66,7 @@ namespace Problem9.ITSupport
 
         public void DisplayTickets()
         {
-            Console.WriteLine("\n=== Support Tickets (By Severity) ===");
+            Console.WriteLine("\nSupport Tickets (By Severity)");
             foreach (var kvp in tickets)
             {
                 Console.WriteLine($"\nSeverity {kvp.Key}:");

@@ -6,7 +6,7 @@ namespace Problem4.AirlineBooking
     {
         public static void Run()
         {
-            Console.WriteLine("\n=== Problem 4: Airline Booking Fare Classification ===\n");
+            Console.WriteLine("\nProblem 4: Airline Booking Fare Classification\n");
             BookingSystem system = new BookingSystem();
 
             try
@@ -18,7 +18,7 @@ namespace Problem4.AirlineBooking
 
                 system.DisplayBookings();
 
-                Console.WriteLine("\n--- Testing Duplicate Seat Booking ---");
+                Console.WriteLine("\nTesting Duplicate Seat Booking");
                 system.AddTicket(new Economy("T005", "David", "12A", 5000));
             }
             catch (SeatAlreadyBookedException ex)

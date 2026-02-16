@@ -6,7 +6,7 @@ namespace Problem6.FlashSale
     {
         public static void Run()
         {
-            Console.WriteLine("\n=== Problem 6: E-Commerce Flash Sale Bidding Engine ===\n");
+            Console.WriteLine("\nProblem 6: E-Commerce Flash Sale Bidding Engine\n");
             AuctionEngine auction = new AuctionEngine(1000);
 
             try
@@ -24,7 +24,7 @@ namespace Problem6.FlashSale
                 auction.CloseAuction();
                 auction.DetermineWinner();
 
-                Console.WriteLine("\n--- Testing Bid After Auction Close ---");
+                Console.WriteLine("\nTesting Bid After Auction Close");
                 auction.AddBid(new Bid("BID005", buyer2, 25000, "PROD001"));
             }
             catch (AuctionClosedException ex)

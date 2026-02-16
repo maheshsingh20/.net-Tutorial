@@ -35,7 +35,7 @@ namespace Problem5.UniversityCourse
 
         public void AllocateSeats()
         {
-            Console.WriteLine("\n=== Seat Allocation (Priority Order) ===");
+            Console.WriteLine("\nSeat Allocation (Priority Order)");
             int seatNumber = 1;
             foreach (var kvp in registrations)
             {
@@ -48,7 +48,7 @@ namespace Problem5.UniversityCourse
 
         public void DisplayRegistrations()
         {
-            Console.WriteLine($"\n=== Course Registrations ({currentEnrollment}/{maxSeats} seats filled) ===");
+            Console.WriteLine($"\nCourse Registrations ({currentEnrollment}/{maxSeats} seats filled)");
             foreach (var kvp in registrations)
             {
                 Console.WriteLine($"\nGPA {kvp.Key:F2}:");

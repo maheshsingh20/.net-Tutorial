@@ -31,7 +31,7 @@ namespace Problem8.TrafficViolation
 
         public void EscalateRepeatOffenders()
         {
-            Console.WriteLine("\n=== Repeat Offenders (2+ violations) ===");
+            Console.WriteLine("\nRepeat Offenders (2+ violations)");
             foreach (var kvp in vehicleViolationCount.Where(x => x.Value >= 2))
             {
                 Console.WriteLine($"⚠️ {kvp.Key}: {kvp.Value} violations - ESCALATED");
@@ -40,7 +40,7 @@ namespace Problem8.TrafficViolation
 
         public void DisplayViolations()
         {
-            Console.WriteLine("\n=== Traffic Violations (Sorted by Penalty) ===");
+            Console.WriteLine("\nTraffic Violations (Sorted by Penalty)");
             foreach (var kvp in violations)
             {
                 Console.WriteLine($"\nPenalty: ₹{kvp.Key}");

@@ -4,9 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("╔════════════════════════════════════════════════════════════╗");
-        Console.WriteLine("║   SortedDictionary Practice - 10 Real-World Problems      ║");
-        Console.WriteLine("╚════════════════════════════════════════════════════════════╝\n");
+        Console.WriteLine("SortedDictionary Practice - 10 Real-World Problems\n");
 
         while (true)
         {
@@ -77,8 +75,7 @@ class Program
                 Console.WriteLine($"\nUnexpected Error: {ex.Message}");
             }
 
-            Console.WriteLine("\n" + new string('=', 60));
-            Console.WriteLine("Press Enter to continue...");
+            Console.WriteLine("\nPress Enter to continue...");
             Console.ReadLine();
             Console.Clear();
         }

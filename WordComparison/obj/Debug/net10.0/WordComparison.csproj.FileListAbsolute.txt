@@ -1,0 +1,15 @@
+F:\DotNetP\WordComparison\bin\Debug\net10.0\WordComparison.exe
+F:\DotNetP\WordComparison\bin\Debug\net10.0\WordComparison.deps.json
+F:\DotNetP\WordComparison\bin\Debug\net10.0\WordComparison.runtimeconfig.json
+F:\DotNetP\WordComparison\bin\Debug\net10.0\WordComparison.dll
+F:\DotNetP\WordComparison\bin\Debug\net10.0\WordComparison.pdb
+F:\DotNetP\WordComparison\obj\Debug\net10.0\WordComparison.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\WordComparison\obj\Debug\net10.0\WordComparison.AssemblyInfoInputs.cache
+F:\DotNetP\WordComparison\obj\Debug\net10.0\WordComparison.AssemblyInfo.cs
+F:\DotNetP\WordComparison\obj\Debug\net10.0\WordComparison.csproj.CoreCompileInputs.cache
+F:\DotNetP\WordComparison\obj\Debug\net10.0\WordComparison.sourcelink.json
+F:\DotNetP\WordComparison\obj\Debug\net10.0\WordComparison.dll
+F:\DotNetP\WordComparison\obj\Debug\net10.0\refint\WordComparison.dll
+F:\DotNetP\WordComparison\obj\Debug\net10.0\WordComparison.pdb
+F:\DotNetP\WordComparison\obj\Debug\net10.0\WordComparison.genruntimeconfig.cache
+F:\DotNetP\WordComparison\obj\Debug\net10.0\ref\WordComparison.dll

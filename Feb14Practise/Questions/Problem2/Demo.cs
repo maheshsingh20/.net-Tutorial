@@ -6,7 +6,7 @@ namespace Problem2.HospitalEmergency
     {
         public static void Run()
         {
-            Console.WriteLine("\n=== Problem 2: Hospital Emergency Queue System ===\n");
+            Console.WriteLine("\nProblem 2: Hospital Emergency Queue System\n");
             EmergencyManager manager = new EmergencyManager();
 
             try
@@ -18,7 +18,7 @@ namespace Problem2.HospitalEmergency
 
                 manager.DisplayQueue();
 
-                Console.WriteLine("\n--- Treating Patients ---");
+                Console.WriteLine("\nTreating Patients");
                 var patient1 = manager.GetNextPatient();
                 patient1.Treat();
 

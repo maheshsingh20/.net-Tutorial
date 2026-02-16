@@ -6,7 +6,7 @@ namespace Problem1.SmartWarehouse
     {
         public static void Run()
         {
-            Console.WriteLine("=== Problem 1: Smart Warehouse Inventory System ===\n");
+            Console.WriteLine("\nProblem 1: Smart Warehouse Inventory System\n");
             WarehouseManager warehouse = new WarehouseManager();
 
             try
@@ -18,15 +18,15 @@ namespace Problem1.SmartWarehouse
 
                 warehouse.DisplayInventory();
 
-                Console.WriteLine("\n--- Highest Priority Products ---");
+                Console.WriteLine("\nHighest Priority Products:");
                 var highPriority = warehouse.GetHighestPriorityProducts();
                 foreach (var p in highPriority)
                     Console.WriteLine($"  {p.Name}");
 
-                Console.WriteLine("\n--- Updating Stock ---");
+                Console.WriteLine("\nUpdating Stock:");
                 warehouse.UpdateStock("E001", 8);
 
-                Console.WriteLine("\n--- Testing Low Stock Exception ---");
+                Console.WriteLine("\nTesting Low Stock Exception:");
                 warehouse.UpdateStock("E001", 5);
             }
             catch (LowStockException ex)
