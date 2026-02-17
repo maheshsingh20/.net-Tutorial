@@ -1,0 +1,15 @@
+F:\DotNetP\GenericsPractice\bin\Debug\net10.0\GenericsPractice.exe
+F:\DotNetP\GenericsPractice\bin\Debug\net10.0\GenericsPractice.deps.json
+F:\DotNetP\GenericsPractice\bin\Debug\net10.0\GenericsPractice.runtimeconfig.json
+F:\DotNetP\GenericsPractice\bin\Debug\net10.0\GenericsPractice.dll
+F:\DotNetP\GenericsPractice\bin\Debug\net10.0\GenericsPractice.pdb
+F:\DotNetP\GenericsPractice\obj\Debug\net10.0\GenericsPractice.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\GenericsPractice\obj\Debug\net10.0\GenericsPractice.AssemblyInfoInputs.cache
+F:\DotNetP\GenericsPractice\obj\Debug\net10.0\GenericsPractice.AssemblyInfo.cs
+F:\DotNetP\GenericsPractice\obj\Debug\net10.0\GenericsPractice.csproj.CoreCompileInputs.cache
+F:\DotNetP\GenericsPractice\obj\Debug\net10.0\GenericsPractice.sourcelink.json
+F:\DotNetP\GenericsPractice\obj\Debug\net10.0\GenericsPractice.dll
+F:\DotNetP\GenericsPractice\obj\Debug\net10.0\refint\GenericsPractice.dll
+F:\DotNetP\GenericsPractice\obj\Debug\net10.0\GenericsPractice.pdb
+F:\DotNetP\GenericsPractice\obj\Debug\net10.0\GenericsPractice.genruntimeconfig.cache
+F:\DotNetP\GenericsPractice\obj\Debug\net10.0\ref\GenericsPractice.dll
