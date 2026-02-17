@@ -1,0 +1,15 @@
+F:\DotNetP\ECommerceInventory\bin\Debug\net10.0\ECommerceInventory.exe
+F:\DotNetP\ECommerceInventory\bin\Debug\net10.0\ECommerceInventory.deps.json
+F:\DotNetP\ECommerceInventory\bin\Debug\net10.0\ECommerceInventory.runtimeconfig.json
+F:\DotNetP\ECommerceInventory\bin\Debug\net10.0\ECommerceInventory.dll
+F:\DotNetP\ECommerceInventory\bin\Debug\net10.0\ECommerceInventory.pdb
+F:\DotNetP\ECommerceInventory\obj\Debug\net10.0\ECommerceInventory.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\ECommerceInventory\obj\Debug\net10.0\ECommerceInventory.AssemblyInfoInputs.cache
+F:\DotNetP\ECommerceInventory\obj\Debug\net10.0\ECommerceInventory.AssemblyInfo.cs
+F:\DotNetP\ECommerceInventory\obj\Debug\net10.0\ECommerceInventory.csproj.CoreCompileInputs.cache
+F:\DotNetP\ECommerceInventory\obj\Debug\net10.0\ECommerceInventory.sourcelink.json
+F:\DotNetP\ECommerceInventory\obj\Debug\net10.0\ECommerceInventory.dll
+F:\DotNetP\ECommerceInventory\obj\Debug\net10.0\refint\ECommerceInventory.dll
+F:\DotNetP\ECommerceInventory\obj\Debug\net10.0\ECommerceInventory.pdb
+F:\DotNetP\ECommerceInventory\obj\Debug\net10.0\ECommerceInventory.genruntimeconfig.cache
+F:\DotNetP\ECommerceInventory\obj\Debug\net10.0\ref\ECommerceInventory.dll

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\DotNetP\\E-Commerce_Inventory_System\\E-Commerce_Inventory_System.csproj",
-      "projectName": "E-Commerce_Inventory_System",
-      "projectPath": "F:\\DotNetP\\E-Commerce_Inventory_System\\E-Commerce_Inventory_System.csproj",
+      "projectUniqueName": "F:\\DotNetP\\ECommerceInventory\\ECommerceInventory.csproj",
+      "projectName": "ECommerceInventory",
+      "projectPath": "F:\\DotNetP\\ECommerceInventory\\ECommerceInventory.csproj",
       "packagesPath": "C:\\Users\\singh\\.nuget\\packages\\",
-      "outputPath": "F:\\DotNetP\\E-Commerce_Inventory_System\\obj\\",
+      "outputPath": "F:\\DotNetP\\ECommerceInventory\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
