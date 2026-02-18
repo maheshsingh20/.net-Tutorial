@@ -1,0 +1,15 @@
+F:\DotNetP\M1MockOverview\bin\Debug\net10.0\M1MockOverview.exe
+F:\DotNetP\M1MockOverview\bin\Debug\net10.0\M1MockOverview.deps.json
+F:\DotNetP\M1MockOverview\bin\Debug\net10.0\M1MockOverview.runtimeconfig.json
+F:\DotNetP\M1MockOverview\bin\Debug\net10.0\M1MockOverview.dll
+F:\DotNetP\M1MockOverview\bin\Debug\net10.0\M1MockOverview.pdb
+F:\DotNetP\M1MockOverview\obj\Debug\net10.0\M1MockOverview.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\M1MockOverview\obj\Debug\net10.0\M1MockOverview.AssemblyInfoInputs.cache
+F:\DotNetP\M1MockOverview\obj\Debug\net10.0\M1MockOverview.AssemblyInfo.cs
+F:\DotNetP\M1MockOverview\obj\Debug\net10.0\M1MockOverview.csproj.CoreCompileInputs.cache
+F:\DotNetP\M1MockOverview\obj\Debug\net10.0\M1MockOverview.sourcelink.json
+F:\DotNetP\M1MockOverview\obj\Debug\net10.0\M1MockOverview.dll
+F:\DotNetP\M1MockOverview\obj\Debug\net10.0\refint\M1MockOverview.dll
+F:\DotNetP\M1MockOverview\obj\Debug\net10.0\M1MockOverview.pdb
+F:\DotNetP\M1MockOverview\obj\Debug\net10.0\M1MockOverview.genruntimeconfig.cache
+F:\DotNetP\M1MockOverview\obj\Debug\net10.0\ref\M1MockOverview.dll
