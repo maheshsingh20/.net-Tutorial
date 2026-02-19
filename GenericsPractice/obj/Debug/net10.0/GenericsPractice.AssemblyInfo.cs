@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GenericsPractice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85333d4e19f5df4c4b9e605165461371be98bf34")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a97999b0e0056af976357cf6d400e68b4b085339")]
 [assembly: System.Reflection.AssemblyProductAttribute("GenericsPractice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GenericsPractice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
