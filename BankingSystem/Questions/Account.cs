@@ -1,48 +1,53 @@
 using System;
-using System.Collections.Generic;
+
 namespace BankingSystem
 {
   public abstract class Account
   {
-    public string accountNumber { get; set; }
+    public string AccountNumber { get; set; }
     public decimal Balance { get; protected set; }
 
     public Account(string accountNumber, decimal initialBalance)
     {
-      this.accountNumber = accountNumber;
+      this.AccountNumber = accountNumber;
       this.Balance = initialBalance;
     }
 
-    /* Amount deposit method */
-    public void depositAmount(int amountToDeposit)
+    public void DepositAmount(decimal amountToDeposit)
     {
-      if (amountToDeposit < 0)
+      if (amountToDeposit <= 0)
       {
         Console.WriteLine("Enter Positive Amount Only");
       }
       else
       {
         Balance += amountToDeposit;
-        Console.WriteLine("Amount is deposited correctly!!");
+        Console.WriteLine($"Amount {amountToDeposit:C} deposited successfully! New balance: {Balance:C}");
       }
     }
-    /*Withdraw Amount Method*/
-    public void WithDrawAmount(int amountToWithDraw)
+
+    public void WithdrawAmount(decimal amountToWithdraw)
     {
-      if (amountToWithDraw < 0)
+      if (amountToWithdraw <= 0)
       {
-        Console.WriteLine("Amount should be Positive only!!");
+        Console.WriteLine("Amount should be Positive only!");
       }
-      else if (amountToWithDraw > Balance)
+      else if (amountToWithdraw > Balance)
       {
-        Console.WriteLine("Amount is not Enough in your account!!");
+        Console.WriteLine("Insufficient balance in your account!");
       }
       else
       {
-        Balance -= amountToWithDraw;
+        Balance -= amountToWithdraw;
+        Console.WriteLine($"Amount {amountToWithdraw:C} withdrawn successfully! Remaining balance: {Balance:C}");
       }
     }
-    public abstract void CalculateInterest();
 
+    public void DisplayBalance()
+    {
+      Console.WriteLine($"Account: {AccountNumber}, Balance: {Balance:C}");
+    }
+
+    public abstract void CalculateInterest();
   }
 }

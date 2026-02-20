@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <!-- Change this to run different questions -->
     <!-- Example: <StartupObject>m1Assessment_Practise.Questions.Question1.Problem</StartupObject> -->
-    <StartupObject>m1Assessment_Practise.Questions.Question1.Problem</StartupObject>
+    <StartupObject>m1Assessment_Practise.Program</StartupObject>
   </PropertyGroup>
 
 </Project>

@@ -1,0 +1,15 @@
+F:\DotNetP\Feb20\bin\Debug\net10.0\Feb20.exe
+F:\DotNetP\Feb20\bin\Debug\net10.0\Feb20.deps.json
+F:\DotNetP\Feb20\bin\Debug\net10.0\Feb20.runtimeconfig.json
+F:\DotNetP\Feb20\bin\Debug\net10.0\Feb20.dll
+F:\DotNetP\Feb20\bin\Debug\net10.0\Feb20.pdb
+F:\DotNetP\Feb20\obj\Debug\net10.0\Feb20.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\Feb20\obj\Debug\net10.0\Feb20.AssemblyInfoInputs.cache
+F:\DotNetP\Feb20\obj\Debug\net10.0\Feb20.AssemblyInfo.cs
+F:\DotNetP\Feb20\obj\Debug\net10.0\Feb20.csproj.CoreCompileInputs.cache
+F:\DotNetP\Feb20\obj\Debug\net10.0\Feb20.sourcelink.json
+F:\DotNetP\Feb20\obj\Debug\net10.0\Feb20.dll
+F:\DotNetP\Feb20\obj\Debug\net10.0\refint\Feb20.dll
+F:\DotNetP\Feb20\obj\Debug\net10.0\Feb20.pdb
+F:\DotNetP\Feb20\obj\Debug\net10.0\Feb20.genruntimeconfig.cache
+F:\DotNetP\Feb20\obj\Debug\net10.0\ref\Feb20.dll

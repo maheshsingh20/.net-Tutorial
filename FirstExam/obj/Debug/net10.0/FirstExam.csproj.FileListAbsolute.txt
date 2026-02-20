@@ -1,0 +1,15 @@
+F:\DotNetP\FirstExam\obj\Debug\net10.0\FirstExam.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\FirstExam\obj\Debug\net10.0\FirstExam.AssemblyInfoInputs.cache
+F:\DotNetP\FirstExam\obj\Debug\net10.0\FirstExam.AssemblyInfo.cs
+F:\DotNetP\FirstExam\obj\Debug\net10.0\FirstExam.csproj.CoreCompileInputs.cache
+F:\DotNetP\FirstExam\obj\Debug\net10.0\FirstExam.sourcelink.json
+F:\DotNetP\FirstExam\bin\Debug\net10.0\FirstExam.exe
+F:\DotNetP\FirstExam\bin\Debug\net10.0\FirstExam.deps.json
+F:\DotNetP\FirstExam\bin\Debug\net10.0\FirstExam.runtimeconfig.json
+F:\DotNetP\FirstExam\bin\Debug\net10.0\FirstExam.dll
+F:\DotNetP\FirstExam\bin\Debug\net10.0\FirstExam.pdb
+F:\DotNetP\FirstExam\obj\Debug\net10.0\FirstExam.dll
+F:\DotNetP\FirstExam\obj\Debug\net10.0\refint\FirstExam.dll
+F:\DotNetP\FirstExam\obj\Debug\net10.0\FirstExam.pdb
+F:\DotNetP\FirstExam\obj\Debug\net10.0\FirstExam.genruntimeconfig.cache
+F:\DotNetP\FirstExam\obj\Debug\net10.0\ref\FirstExam.dll

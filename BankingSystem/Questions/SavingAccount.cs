@@ -1,20 +1,22 @@
 using System;
 using System.Collections.Generic;
-using BankingSystem;
+
 namespace BankingSystem
 {
   public class SavingAccount : Account
   {
-    public double interestRate { get; private set; }
-    public SavingAccount(string accountNumber, decimal Balance, double rate) : base(accountNumber, Balance)
+    public double InterestRate { get; private set; }
+    
+    public SavingAccount(string accountNumber, decimal balance, double rate) : base(accountNumber, balance)
     {
-      interestRate = rate;
+      InterestRate = rate;
     }
 
     public override void CalculateInterest()
     {
-      double interest = (double)Balance * interestRate / 100;
-      Balance += (decimal)interest;
+      decimal interest = Balance * (decimal)InterestRate / 100;
+      Balance += interest;
+      Console.WriteLine($"Interest calculated: {interest:C}. New balance: {Balance:C}");
     }
   }
 }

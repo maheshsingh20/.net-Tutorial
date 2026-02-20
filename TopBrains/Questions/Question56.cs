@@ -39,7 +39,7 @@ namespace TopBrains.Questions
         {
             BankAccount account = new BankAccount(100);
             account.Deposit(50);
-            Assert.AreEqual(150, account.Balance);
+            Assert.That(account.Balance, Is.EqualTo(150));
         }
         
         [Test]
@@ -54,7 +54,7 @@ namespace TopBrains.Questions
         {
             BankAccount account = new BankAccount(100);
             account.Withdraw(30);
-            Assert.AreEqual(70, account.Balance);
+            Assert.That(account.Balance, Is.EqualTo(70));
         }
         
         [Test]
