@@ -4,7 +4,8 @@ namespace Feb20
 {
   public class Oops
   {
-    public int Id;
+    public int Id; // Field
+    public string Name { get; set; } // Property
     public Oops()
     {
       Console.WriteLine("Base class constructor");

@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\DotNetP\\ASP.NET_MVC\\Student\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A67E5F1-97DA-4148-ABA1-A5EE1F376051}|Student.csproj|f:\\dotnetp\\asp.net_mvc\\student\\views\\practise\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A67E5F1-97DA-4148-ABA1-A5EE1F376051}|Student.csproj|solutionrelative:views\\practise\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A67E5F1-97DA-4148-ABA1-A5EE1F376051}|Student.csproj|f:\\dotnetp\\asp.net_mvc\\student\\controllers\\practisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A67E5F1-97DA-4148-ABA1-A5EE1F376051}|Student.csproj|solutionrelative:controllers\\practisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A67E5F1-97DA-4148-ABA1-A5EE1F376051}|Student.csproj|f:\\dotnetp\\asp.net_mvc\\student\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A67E5F1-97DA-4148-ABA1-A5EE1F376051}|Student.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\DotNetP\\ASP.NET_MVC\\Student\\Views\\Practise\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Practise\\Index.cshtml",
+              "ToolTip": "F:\\DotNetP\\ASP.NET_MVC\\Student\\Views\\Practise\\Index.cshtml",
+              "RelativeToolTip": "Views\\Practise\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T07:15:00.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PractiseController.cs",
+              "DocumentMoniker": "F:\\DotNetP\\ASP.NET_MVC\\Student\\Controllers\\PractiseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PractiseController.cs",
+              "ToolTip": "F:\\DotNetP\\ASP.NET_MVC\\Student\\Controllers\\PractiseController.cs",
+              "RelativeToolTip": "Controllers\\PractiseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T07:13:04.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\DotNetP\\ASP.NET_MVC\\Student\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "F:\\DotNetP\\ASP.NET_MVC\\Student\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T07:11:06.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
