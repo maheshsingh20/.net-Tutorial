@@ -1,0 +1,36 @@
+@model List<Student.Models.Pupil>
+
+@{
+  ViewData["Title"] = "Pupil Details";
+}
+
+<h1>Pupil Details</h1>
+
+<table border="1" cellpadding="10">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Grade</th>
+      <th>City</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    @foreach (var s in Model)
+    {
+      <tr>
+        <td>@s.Id</td>
+        <td>@s.Name</td>
+        <td>@s.Age</td>
+        <td>@s.Grade</td>
+        <td>@s.City</td>
+      </tr>
+    }
+  </tbody>
+</table>
+
+<hr />
+
+<a asp-controller="Home" asp-action="Index">Back to Home</a>
