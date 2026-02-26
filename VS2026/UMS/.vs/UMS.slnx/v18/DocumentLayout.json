@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Student1\\Program.cs",
               "ToolTip": "F:\\DotNetP\\VS2026\\UMS\\Student1\\Program.cs",
               "RelativeToolTip": "Student1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T06:31:17.007Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Student1\\StudentDAL.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAgwDEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T06:33:08.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T06:33:08.817Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Student1\\Studentt.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAkwA0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T06:33:29.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T06:33:29.57Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,11 @@
               "RelativeToolTip": "Student1\\StudentBL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T06:32:29.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T06:32:29.093Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
