@@ -1,0 +1,5 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#E74C3C"/>
+  <text x="50%" y="45%" font-family="Arial" font-size="24" fill="white" text-anchor="middle">Men's Sneakers</text>
+  <text x="50%" y="55%" font-family="Arial" font-size="18" fill="white" text-anchor="middle">$79.99</text>
+</svg>
