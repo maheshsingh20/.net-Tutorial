@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\DotNetP\\ASP_WEB_API\\Ecommerce_Inventory\\Ecommerce_Inventory.csproj": {}
+    "F:\\DotNetP\\ASP.NET_WEB_CORE_MVC\\Ecommerce_Inventory\\Ecommerce_Inventory.csproj": {}
   },
   "projects": {
-    "F:\\DotNetP\\ASP_WEB_API\\Ecommerce_Inventory\\Ecommerce_Inventory.csproj": {
+    "F:\\DotNetP\\ASP.NET_WEB_CORE_MVC\\Ecommerce_Inventory\\Ecommerce_Inventory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\DotNetP\\ASP_WEB_API\\Ecommerce_Inventory\\Ecommerce_Inventory.csproj",
+        "projectUniqueName": "F:\\DotNetP\\ASP.NET_WEB_CORE_MVC\\Ecommerce_Inventory\\Ecommerce_Inventory.csproj",
         "projectName": "Ecommerce_Inventory",
-        "projectPath": "F:\\DotNetP\\ASP_WEB_API\\Ecommerce_Inventory\\Ecommerce_Inventory.csproj",
+        "projectPath": "F:\\DotNetP\\ASP.NET_WEB_CORE_MVC\\Ecommerce_Inventory\\Ecommerce_Inventory.csproj",
         "packagesPath": "C:\\Users\\singh\\.nuget\\packages\\",
-        "outputPath": "F:\\DotNetP\\ASP_WEB_API\\Ecommerce_Inventory\\obj\\",
+        "outputPath": "F:\\DotNetP\\ASP.NET_WEB_CORE_MVC\\Ecommerce_Inventory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,14 +51,6 @@
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[10.0.3, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[10.0.3, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[10.0.3, )"
             },

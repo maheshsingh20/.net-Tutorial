@@ -1,0 +1,15 @@
+F:\DotNetP\Feb27MeetingProblem\bin\Debug\net10.0\Feb27MeetingProblem.exe
+F:\DotNetP\Feb27MeetingProblem\bin\Debug\net10.0\Feb27MeetingProblem.deps.json
+F:\DotNetP\Feb27MeetingProblem\bin\Debug\net10.0\Feb27MeetingProblem.runtimeconfig.json
+F:\DotNetP\Feb27MeetingProblem\bin\Debug\net10.0\Feb27MeetingProblem.dll
+F:\DotNetP\Feb27MeetingProblem\bin\Debug\net10.0\Feb27MeetingProblem.pdb
+F:\DotNetP\Feb27MeetingProblem\obj\Debug\net10.0\Feb27MeetingProblem.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetP\Feb27MeetingProblem\obj\Debug\net10.0\Feb27MeetingProblem.AssemblyInfoInputs.cache
+F:\DotNetP\Feb27MeetingProblem\obj\Debug\net10.0\Feb27MeetingProblem.AssemblyInfo.cs
+F:\DotNetP\Feb27MeetingProblem\obj\Debug\net10.0\Feb27MeetingProblem.csproj.CoreCompileInputs.cache
+F:\DotNetP\Feb27MeetingProblem\obj\Debug\net10.0\Feb27MeetingProblem.sourcelink.json
+F:\DotNetP\Feb27MeetingProblem\obj\Debug\net10.0\Feb27MeetingProblem.dll
+F:\DotNetP\Feb27MeetingProblem\obj\Debug\net10.0\refint\Feb27MeetingProblem.dll
+F:\DotNetP\Feb27MeetingProblem\obj\Debug\net10.0\Feb27MeetingProblem.pdb
+F:\DotNetP\Feb27MeetingProblem\obj\Debug\net10.0\Feb27MeetingProblem.genruntimeconfig.cache
+F:\DotNetP\Feb27MeetingProblem\obj\Debug\net10.0\ref\Feb27MeetingProblem.dll

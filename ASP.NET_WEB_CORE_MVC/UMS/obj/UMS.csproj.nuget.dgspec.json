@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\DotNetP\\ASP_WEB_API\\UMS\\UMS.csproj": {}
+    "F:\\DotNetP\\ASP.NET_WEB_CORE_MVC\\UMS\\UMS.csproj": {}
   },
   "projects": {
-    "F:\\DotNetP\\ASP_WEB_API\\UMS\\UMS.csproj": {
+    "F:\\DotNetP\\ASP.NET_WEB_CORE_MVC\\UMS\\UMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\DotNetP\\ASP_WEB_API\\UMS\\UMS.csproj",
+        "projectUniqueName": "F:\\DotNetP\\ASP.NET_WEB_CORE_MVC\\UMS\\UMS.csproj",
         "projectName": "UMS",
-        "projectPath": "F:\\DotNetP\\ASP_WEB_API\\UMS\\UMS.csproj",
+        "projectPath": "F:\\DotNetP\\ASP.NET_WEB_CORE_MVC\\UMS\\UMS.csproj",
         "packagesPath": "C:\\Users\\singh\\.nuget\\packages\\",
-        "outputPath": "F:\\DotNetP\\ASP_WEB_API\\UMS\\obj\\",
+        "outputPath": "F:\\DotNetP\\ASP.NET_WEB_CORE_MVC\\UMS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

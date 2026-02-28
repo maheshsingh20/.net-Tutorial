@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DYnGAxQ+pos=",
+  "dgSpecHash": "rLCMF33oV1I=",
   "success": true,
-  "projectFilePath": "F:\\DotNetP\\ASP_WEB_API\\UMS\\UMS.csproj",
+  "projectFilePath": "F:\\DotNetP\\ASP.NET_WEB_CORE_MVC\\UMS\\UMS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\singh\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
