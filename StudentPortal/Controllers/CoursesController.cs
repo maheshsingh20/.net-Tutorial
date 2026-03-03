@@ -19,9 +19,24 @@ namespace StudentPortal.Controllers
         }
 
         // GET: Courses
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Courses.ToListAsync());
+            var courses = from c in _context.Courses
+                         select c;
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                courses = courses.Where(c => c.Title.Contains(searchString) || 
+                                           c.Level.Contains(searchString));
+            }
+
+            ViewData["CurrentFilter"] = searchString;
+            
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return PartialView("_CoursesTable", await courses.ToListAsync());
+            }
+            
+            return View(await courses.ToListAsync());
         }
 
         // GET: Courses/Details/5
@@ -143,7 +158,7 @@ namespace StudentPortal.Controllers
             var course = await _context.Courses.FindAsync(id);
             if (course != null)
             {
-                _context.Courses.Remove(course);
+              _context.Courses.Remove(course);
             }
 
             await _context.SaveChangesAsync();

@@ -20,10 +20,26 @@ namespace StudentPortal.Controllers
         }
 
         // GET: Students
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
             var students = await _service.GetAllAsync();
+            
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                students = students.Where(s => s.FullName.Contains(searchString, StringComparison.OrdinalIgnoreCase) ||
+                                             s.Email.Contains(searchString, StringComparison.OrdinalIgnoreCase) ||
+                                             (s.Phone != null && s.Phone.Contains(searchString, StringComparison.OrdinalIgnoreCase)))
+                                  .ToList();
+            }
+
+            ViewData["CurrentFilter"] = searchString;
             Console.WriteLine($"Found {students.Count} students");
+            
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return PartialView("_StudentsTable", students);
+            }
+            
             return View(students);
         }
 
