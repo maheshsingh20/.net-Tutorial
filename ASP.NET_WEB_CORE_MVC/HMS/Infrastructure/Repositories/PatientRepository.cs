@@ -2,7 +2,6 @@ using HMS.Domain.Entities;
 using HMS.Domain.Interfaces;
 using HMS.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-
 namespace HMS.Infrastructure.Repositories
 {
     public class PatientRepository : IPatientRepository
