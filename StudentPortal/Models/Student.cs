@@ -15,11 +15,14 @@ public partial class Student
 
     [Required(ErrorMessage = "Email is required")]
     [EmailAddress(ErrorMessage = "Invalid email address")]
+    [RegularExpression(@"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$", 
+        ErrorMessage = "Please enter a valid email address (e.g., user@example.com)")]
     [StringLength(180, ErrorMessage = "Email cannot exceed 180 characters")]
     public string Email { get; set; } = null!;
 
-    [Phone(ErrorMessage = "Invalid phone number")]
-    [StringLength(30, ErrorMessage = "Phone cannot exceed 30 characters")]
+    [RegularExpression(@"^[\d\s\-\+\(\)]+$", 
+        ErrorMessage = "Phone number can only contain digits, spaces, +, -, and parentheses")]
+    [StringLength(30, MinimumLength = 10, ErrorMessage = "Phone must be between 10 and 30 characters")]
     public string? Phone { get; set; }
 
     [StringLength(20)]
@@ -29,11 +32,8 @@ public partial class Student
     [Display(Name = "Join Date")]
     [DataType(DataType.Date)]
     public DateOnly JoinDate { get; set; }
-
     [Display(Name = "Created At")]
     public DateTime CreatedAt { get; set; }
-
     public virtual ICollection<Enrollment> Enrollments { get; set; } = new List<Enrollment>();
-
     public virtual ICollection<TblLog> TblLogs { get; set; } = new List<TblLog>();
 }

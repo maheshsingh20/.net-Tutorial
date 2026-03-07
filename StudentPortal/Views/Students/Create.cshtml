@@ -23,13 +23,18 @@
 
                         <div class="mb-3">
                             <label asp-for="Email" class="form-label fw-bold"></label>
-                            <input asp-for="Email" type="email" class="form-control" placeholder="example@email.com" />
+                            <input asp-for="Email" type="email" class="form-control" placeholder="example@email.com" 
+                                   pattern="[a-zA-Z0-9._%+&#45;]+&#64;[a-zA-Z0-9.&#45;]+\.[a-zA-Z]{2,}" 
+                                   title="Please enter a valid email address" />
                             <span asp-validation-for="Email" class="text-danger small"></span>
                         </div>
 
                         <div class="mb-3">
                             <label asp-for="Phone" class="form-label fw-bold"></label>
-                            <input asp-for="Phone" type="tel" class="form-control" placeholder="+1234567890" />
+                            <input asp-for="Phone" type="tel" class="form-control" placeholder="+1 (234) 567-8900" 
+                                   pattern="[\d\s\-\+\(\)]+" 
+                                   minlength="10"
+                                   title="Phone number can only contain digits, spaces, +, -, and parentheses (min 10 characters)" />
                             <span asp-validation-for="Phone" class="text-danger small"></span>
                         </div>
 

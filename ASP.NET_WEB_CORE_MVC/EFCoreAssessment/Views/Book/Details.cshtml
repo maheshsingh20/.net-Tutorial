@@ -1,0 +1,35 @@
+@model EFCoreAssessment.Models.Book
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Details</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Book Details</h2>
+
+        <div class="details-box">
+            <dl>
+                <dt>Book ID</dt>
+                <dd>@Model.BookId</dd>
+
+                <dt>Title</dt>
+                <dd>@Model.Title</dd>
+
+                <dt>Author</dt>
+                <dd>@Model.Author</dd>
+
+                <dt>Price</dt>
+                <dd>@Model.Price.ToString("C")</dd>
+            </dl>
+        </div>
+
+        <div class="actions">
+            <a asp-action="List" class="btn btn-secondary">Back to List</a>
+            <a asp-action="Delete" asp-route-id="@Model.BookId" class="btn btn-danger">Delete</a>
+        </div>
+    </div>
+</body>
+</html>

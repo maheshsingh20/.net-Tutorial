@@ -13,12 +13,10 @@ namespace StudentPortal.Controllers
     public class StudentsController : Controller
     {
         private readonly IStudentService _service;
-
         public StudentsController(IStudentService service)
         {
             _service = service;
         }
-
         // GET: Students
         public async Task<IActionResult> Index(string searchString)
         {
@@ -31,18 +29,14 @@ namespace StudentPortal.Controllers
                                              (s.Phone != null && s.Phone.Contains(searchString, StringComparison.OrdinalIgnoreCase)))
                                   .ToList();
             }
-
             ViewData["CurrentFilter"] = searchString;
             Console.WriteLine($"Found {students.Count} students");
-            
             if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
             {
                 return PartialView("_StudentsTable", students);
-            }
-            
+            }   
             return View(students);
         }
-
         // GET: Students/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -50,17 +44,13 @@ namespace StudentPortal.Controllers
             {
                 return NotFound();
             }
-
             var student = await _service.GetByIdAsync(id.Value);
             if (student == null)
             {
                 return NotFound();
             }
-
             return View(student);
         }
-
-        // GET: Students/Create
         public IActionResult Create()
         {
             return View();

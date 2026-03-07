@@ -1,0 +1,45 @@
+@model List<EFCoreAssessment.Models.Book>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book List</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Book List</h2>
+
+        <p>
+            <a asp-action="Create" class="btn btn-primary">Add New Book</a>
+        </p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var book in Model)
+                {
+                    <tr>
+                        <td>@book.BookId</td>
+                        <td>@book.Title</td>
+                        <td>@book.Author</td>
+                        <td>@book.Price.ToString("C")</td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@book.BookId" class="btn btn-info">Details</a>
+                            <a asp-action="Delete" asp-route-id="@book.BookId" class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

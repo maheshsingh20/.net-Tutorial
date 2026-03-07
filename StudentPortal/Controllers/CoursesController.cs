@@ -88,7 +88,6 @@ namespace StudentPortal.Controllers
             {
                 return NotFound();
             }
-
             var course = await _context.Courses.FindAsync(id);
             if (course == null)
             {
@@ -96,7 +95,6 @@ namespace StudentPortal.Controllers
             }
             return View(course);
         }
-
         // POST: Courses/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -131,7 +129,6 @@ namespace StudentPortal.Controllers
             }
             return View(course);
         }
-
         // GET: Courses/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
